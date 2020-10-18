@@ -499,7 +499,6 @@ color: var(--accent-color);
     transform: scale(1.2);
     transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
 /*  ============ END CUSTOMERS  ============ */
 
 /*  ============ END MAIN  ============ */
@@ -620,7 +619,7 @@ color: var(--accent-color);
     background: rgba(33, 150, 243, 0.9);
     transform: translatey(100%);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
 
 .portfolio-list-link:hover .portfolio-description,
 .portfolio-list-link:focus .portfolio-description {
@@ -634,7 +633,6 @@ color: var(--accent-color);
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
 }
-
 /*  ============ END MAIN PORTFOLIO  ============ */
 
 /*  ============ FOOTER  ============ */
@@ -743,12 +741,12 @@ color: var(--accent-color);
     height: 20px;
     fill: #fff;
 }
+
 .social-join-linkedin {
     width: 20px;
     height: 20px;
     fill: #fff;
 }
-  
 /*  ============ END Footer Social  ============ */
 
 /*  ============ FOOTER FORM  ============ */
@@ -756,6 +754,7 @@ color: var(--accent-color);
     padding-top: 12px;
     max-width: 570px;
 }
+
 .footer-form-title {
     display: inline-block;
     font-weight: 700;
@@ -772,6 +771,7 @@ color: var(--accent-color);
     margin-top: 20px;
     width: 570px;
 }
+
 .footer-form-input {
     display: inline-block;
     width: 358px;
@@ -785,9 +785,11 @@ color: var(--accent-color);
     outline: transparent;
     background-color: transparent;
 }
+
 .footer-form-input:focus {
     border-color: #188ce8;
 }
+
 .footer-form-input::placeholder {
     font-family: Roboto;
     font-style: normal;
@@ -798,6 +800,7 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-form-button {
     display: inline-flex;
     width: 200px;
@@ -818,6 +821,7 @@ color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 .footer-form-button:hover,
 .footer-form-button:focus {
     background-color: #188ce8;
@@ -918,7 +922,6 @@ color: var(--accent-color);
 }
 
 /* ==========MODAL FORM============== */
-
 .form-title {
     font-weight: 700;
     font-size: 20px;
@@ -927,10 +930,12 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
     margin-bottom: 12px;
 }
+
 .modal-form {
     display: flex;
     flex-direction: column;
 }
+
 .form-label {
     display: block;
     font-weight: 400;
@@ -940,6 +945,7 @@ color: var(--accent-color);
   
     color: var(--text-color);
 }
+
 .form-input {
     width: 100%;
     height: 40px;
@@ -952,22 +958,27 @@ color: var(--accent-color);
     outline: transparent;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .form-input:focus {
     border: 1px solid var(--accent-color);
 }
+
 .form-input:focus + .form-input-icon {
     fill: var(--accent-color);
 }
+
 .input-wrapper {
     position: relative;
     margin-bottom: 10px;
 }
+
 .form-input-icon {
     position: absolute;
     bottom: 11px;
     left: 12px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .form-comment {
     display: block;
     width: 100%;
@@ -982,17 +993,21 @@ color: var(--accent-color);
     border-radius: 4px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .form-comment:focus {
     border-color: var(--accent-color);
 }
+
 .checkbox-wrapper {
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
 .form-checkbox-label {
     display: inline-flex;
     align-items: center;
 }
+
 .checkbox-input {
     position: absolute;
     widows: 1px;
@@ -1003,6 +1018,7 @@ color: var(--accent-color);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .form-checkbox-label::before {
     content: "";
     width: 16px;
@@ -1014,6 +1030,7 @@ color: var(--accent-color);
     border-radius: 2px;
     transition : 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .checkbox-input:checked + .form-checkbox-label::before {
     background-color: var(--accent-color);
     background-image: url(../images/svg/check.svg);
@@ -1021,6 +1038,7 @@ color: var(--accent-color);
     background-origin: border-box;
     border-color: var(--accent-color);
 }
+
 .form-text {
     font-weight: 400;
     font-size: 14px;
@@ -1029,19 +1047,17 @@ color: var(--accent-color);
   
     color: var(--text-color);
 }
+
 .contract {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
   
-    color: var(--title-color);
+    color: var(--accent-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contract:hover,
-.contract:focus {
-    color: var(--accent-color);
-}
+
 .submit-btn {
     display: block;
     margin: 0 auto;
